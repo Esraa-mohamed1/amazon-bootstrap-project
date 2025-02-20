@@ -23,72 +23,76 @@
     ></script>
    
   </head>
-  <body> <section class="container-fluid navBar">
-    <section class="row navBarrow">
-      <div class="col-3 leftsection">
-        <img src="images/amazon_PNG25-1.png" alt="img" />
-        <div class="hello">
-          <a href="#">Hello,</a> <br />
-          <a href="#"
-            ><i class="fas fa-map-marker-alt"></i
-            ><b> Select your address</b></a
-          >
+  <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>E-Shopper – Amazon Inspired</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/amazon_PNG25-1.png" alt="Amazon Logo" height="40">
+            </a>
+    
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-geo-alt"></i> Select your address</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Hello, Sign in</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Returns & Orders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cart.html">
+                            <i class="bi bi-cart"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+    
+                <!-- Search Bar -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search for items">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
         </div>
-      </div>
-
-      <div class="col-6 navSearchBar">
-        <div class="itemSearchBar">
-
-          <input placeholder="      Search for items" type="search" name="" id="" />
+    </nav>
+    
+    <div class="bg-dark text-white py-2">
+        <div class="container d-flex flex-wrap justify-content-around">
+            <a href="#" class="text-white text-decoration-none">All</a>
+            <a href="#" class="text-white text-decoration-none">Best Sellers</a>
+            <a href="#" class="text-white text-decoration-none">Mobiles</a>
+            <a href="#" class="text-white text-decoration-none">Prime</a>
+            <a href="#" class="text-white text-decoration-none">Electronics</a>
+            <a href="#" class="text-white text-decoration-none">Fashion</a>
+            <a href="#" class="text-white text-decoration-none">New Releases</a>
+            <a href="#" class="text-white text-decoration-none">Customer Service</a>
+            <a href="#" class="text-white text-decoration-none">Amazon Pay</a>
+            <a href="#" class="text-white text-decoration-none">Computers</a>
+            <a href="#" class="text-white text-decoration-none">Home & Kitchen</a>
+            <a href="#" class="text-white text-decoration-none">Today's Deals</a>
         </div>
-      </div>
-      <section class="col-3 navLast">
-        <div class="Flag">
-          <img
-            src="https://ts2.mm.bing.net/th?id=OIP.L710FL6ztHa78kkfIjaYjAAAAA&pid=15.1"
-            
-          />
-          <i class="fas fa-angle-down"></i>
-        </div>
-        <div class="helloAccount">
-          <a href="login.html">Hello,Signin</a><br />
-          <a href="#"
-            ><b>Account & List</b> <i class="fas fa-angle-down"></i>
-          </a>
-        </div>
-        <div class="return">
-          <a href="#">Reutrns</a><br />
-          <a href="#"><b>&Orders</b></a>
-        </div>
-        <div class="cart">
-          <a href="cart.html"
-            ><img
-              src="https://www.x1.com/wp-content/uploads/2018/09/Shopping-cart-icon.png"
-              alt=""
-            />
-            <b> Carts</b></a
-          >
-        </div>
-      </section>
-    </section>
-  </section>
+    </div>
     
 
-  <section class="container-fluid navOptions">
-    <a href="#"> <i class="fas fa-bars"></i> All</a>
-    <a href="#">best Sellers</a>
-    <a href="#">mobiles</a>
-    <a href="#">prime <i class="fas fa-angle-down"></i> </a>
-    <a href="#">electronics</a>
-    <a href="#">fashion</a>
-    <a href="#">new releases</a>
-    <a href="#">customer service</a>
-    <a href="#">amazon pay</a>
-    <a href="#">computers</a>
-    <a href="#">home & kitchen</a>
-    <a href="#">today's deals</a>
-  </section>
-
+    
     <section class="container-fluid amazonCarousel">
       <div class="amazonMainCarousel">
         <div
